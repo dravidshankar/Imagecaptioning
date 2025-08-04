@@ -13,8 +13,4 @@ iface = gr.Interface(launch,
                      inputs=gr.Image(type='pil'),
                      outputs="text")
 
-iface.launch(
-    server_name="0.0.0.0",
-    server_port=7860,
-    show_error=True
-)
+iface.launch()
